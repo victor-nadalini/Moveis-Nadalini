@@ -1,0 +1,15 @@
+.carrinho_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    background: none;
+    border:none;
+    color: white;
+    font-size: 18px;
+}
+.carrinho_button:hover {
+    text-underline-offset: 10px  ;
+    color: rgb(239, 232, 208);
+    transition-duration: 1s;
+}

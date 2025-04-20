@@ -1,0 +1,12 @@
+.link_menu {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.link_menu:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px  ;
+    color: rgb(239, 232, 208);
+    transition-duration: 0.5s;
+}

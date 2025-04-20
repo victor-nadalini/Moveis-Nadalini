@@ -1,3 +1,5 @@
-.body {
-    background-color: #273e55;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
