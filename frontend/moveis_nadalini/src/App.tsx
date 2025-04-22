@@ -5,7 +5,8 @@ import './styles/ul.css'
 import './styles/a.css'
 import './styles/div.css'
 import './styles/button.css'
-
+import './styles/span.css'
+import { GrShop } from "react-icons/gr";
 
 function App() {
   return (
@@ -28,10 +29,15 @@ function App() {
           <button className='carrinho_button'>
             <div>
               <span>
-                Carrinho
+              <GrShop  className='iconShop' style={{ display: "inline", marginRight: "6px", height: "24px" }}/>
+              Carrinho
               </span>
             </div>
           </button>
+          <section>
+            
+            <input type="text" placeholder='Buscar produtos' />
+          </section>
         </nav>
       </div>
     </body>
