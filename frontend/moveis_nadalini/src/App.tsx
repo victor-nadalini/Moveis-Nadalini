@@ -6,6 +6,7 @@ import './styles/a.css'
 import './styles/div.css'
 import './styles/button.css'
 import './styles/span.css'
+import './styles/input.css'
 import { GrShop } from "react-icons/gr";
 
 function App() {
@@ -35,8 +36,7 @@ function App() {
             </div>
           </button>
           <section>
-            
-            <input type="text" placeholder='Buscar produtos' />
+            <input className='buscar_produto' type="text" placeholder='Buscar produtos' />
           </section>
         </nav>
       </div>
