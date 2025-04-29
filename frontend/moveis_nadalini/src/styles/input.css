@@ -1,5 +1,10 @@
-.buscar_produto {
-    padding: 12px 12px 12px 44px;
+.input-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .buscar_produto {
+    padding: 12px 12px 12px 44px; /* espaço para o ícone */
     color: #fff;
     border-radius: 6px;
     border: 1px solid var(--a5727d5e);
@@ -10,17 +15,30 @@
     font-family: var(--267fbace);
     background-color: var(--20c4e4da);
     width: 100%;
-    height: 100%;
-    transition: color ease .2s,border-color ease .2s,background-color ease .2s;
-}
-
-.buscar_produto::placeholder {
+    height: 48px; /* Defina uma altura fixa aqui */
+    transition: color ease .2s, border-color ease .2s, background-color ease .2s;
+  }
+  
+  .buscar_produto::placeholder {
     color: white;
-}
-.buscar_produto:hover::placeholder {
-    color: #273e55
-}
-
-.buscar_produto:hover {
+  }
+  .buscar_produto:hover::placeholder {
+    color: #273e55;
+  }
+  .buscar_produto:hover {
     background-color: #ffff;
-}
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer; /* Agora o ícone também pode ter hover */
+  }
+  
+  .search-icon:hover {
+    color: #273e55;
+  }
+  

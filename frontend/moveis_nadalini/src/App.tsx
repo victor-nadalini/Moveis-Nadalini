@@ -8,6 +8,8 @@ import './styles/button.css'
 import './styles/span.css'
 import './styles/input.css'
 import { GrShop } from "react-icons/gr";
+import { IoSearchSharp } from "react-icons/io5";
+
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
               </span>
             </div>
           </button>
-          <section>
+          <section className="input-container">
+          <IoSearchSharp className="search-icon" style={{color: "white"}}/>
             <input className='buscar_produto' type="text" placeholder='Buscar produtos' />
           </section>
         </nav>
